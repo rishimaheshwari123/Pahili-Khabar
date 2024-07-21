@@ -10,7 +10,7 @@ import Tab from "../components/core/HomePage/Tab";
 import AddSlideBar from "../components/comman/AddSlideBar";
 
 import VIdeos from "../components/home/VIdeos";
-import LiveSection from "../components/home/LiveSection";
+// import LiveSection from "../components/home/LiveSection";
 import ButtomAdd from "../components/comman/ButtomAdd";
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
       <div className="mt-24">
         <AddSlideBar />
         <BreakingNews />
-        <LiveSection />
+        {/* <LiveSection /> */}
         <br />
         <News />
         <br />
